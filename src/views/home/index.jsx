@@ -34,6 +34,7 @@ const Home = memo(() => {
     <HomeWrapper>
       <HomeBanner></HomeBanner>
       <div className="content">
+        111
         {IsEmptyObject(discountInfo) && <HomeSectionV2 infoData={discountInfo} />}
         {IsEmptyObject(recommendInfo) && <HomeSectionV2 infoData={recommendInfo} />}
         {IsEmptyObject(longForInfo) && <HomeLongFor infoData={longForInfo} />}
